@@ -1,0 +1,222 @@
+/*-------HTML--------*/
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  background-color: #F6FBF4;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 150px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #94B3FD;
+}
+
+p {
+  color: #6D8299;
+}
+
+
+/*------------ID's-----------*/
+
+#title {
+  background-color: #94B3FD;
+}
+
+
+#features {
+  padding: 7% 15%;
+}
+
+
+#testimonials {
+  background-color: #94B3FD;
+  text-align: center;
+  color: #fff;
+}
+
+
+#press {
+  background-color: #94B3FD;
+  text-align: center;
+  padding: 2%;
+}
+
+
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+#cta {
+  background-color: #94B3FD;
+  text-align: center;
+  padding: 8% 15%;
+}
+
+
+/*----------CLASS---------*/
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.title-img {
+  width: 410px;
+  transform: rotate(25deg);
+}
+
+.nav-item {
+  font-weight: lighter;
+}
+
+.btn-dark {
+  background: linear-gradient(to left, #ffafbd, #ffc3a0);
+  border-color: #ffafbd;
+  color: #212529;
+  margin-top: 80px;
+}
+
+.btn-outline-light {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+
+
+.Feature-box {
+  text-align: center;
+  padding: 4%;
+}
+
+.dog-img {
+  width: 180px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #6D8299;
+}
+
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+.lab {
+  margin-top: 20px;
+  width: 100px;
+}
+
+.girl-image {
+  margin-top: 20px;
+  width: 100px;
+}
+
+
+.logos {
+  margin-left: 50px;
+  width: 180px;
+}
+
+/*----------------Pricing Table------------------*/
+
+
+.pricing-heading{
+  color: #94B3FD;
+}
+
+.pricing-table {
+  padding: 3% 3%;
+}
+
+.btn-light:hover {
+  background-color: #82DBD8;
+}
+
+.card-color{
+color: #194350;
+}
+
+
+.card1 {
+  background-color: #FFBF86;
+  max-width: 18rem;
+}
+
+.card2 {
+  background-color: #FF9292;
+  max-width: 18rem;
+}
+
+.card3 {
+  background-color: #93D9A3;
+  max-width: 18rem;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+
+.credit {
+  text-align: center;
+}
+
+.lastlogo {
+  margin: 30px 20px;
+}
+
+.cta-styles{
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 70px;
+
+}
+
+.main-logo{
+
+  width: 250px;
+}
+
+
+/*-------------------------media query---------------*/
+@media (max-width: 1100px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*-----------------------------------*/
